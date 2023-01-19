@@ -51,7 +51,7 @@ body {
 }
 
 .picture {
-    background-color: lightgreen;
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
     width: 40vw;
     height: 100vh;
 }
@@ -97,8 +97,27 @@ form div {
     margin: 1.5rem;
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
+
 }
 
 label {
     display: block;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+}
+
+.photo-credit {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+a {
+    color: white;
 }
